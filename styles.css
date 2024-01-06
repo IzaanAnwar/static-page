@@ -11,6 +11,7 @@ body {
     margin: 0px 8px;
 }
 
+
 .image-bg {
     background-image: url("./assests//Rectangle\ 35@2x.png");
     background-size: cover;
@@ -31,12 +32,20 @@ body {
     height: fit-content;
     display: none;
 }
+.profile-dropdown button{
+    background-color: #885EF0;
+    color: white;
+}
+.profile-dropdown button:hover {
+    background-color: #9174da;
+    color: white;
+}
 
 .flex-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 16-x; */
+    padding: 0 3rem;
     color: white;
 }
 
@@ -249,6 +258,11 @@ h5 {
     }
     main {
         padding: 1rem ;
+    }
+    .flex-container {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
     }
 
     .image-bg {
