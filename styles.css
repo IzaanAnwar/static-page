@@ -26,6 +26,7 @@ body {
 
 }
 
+
 .search-btn {
     color: white;
     width: fit-content;
@@ -43,10 +44,10 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0 3rem;
-    color: white;
+    /* color: white !important; */
 }
 
 .menu-icon {
@@ -158,6 +159,13 @@ body {
 
 }
 
+.nav-tog {
+    display: none;
+}
+
+.nav-a {
+    color: white !important;
+}
 
 footer h1 {
     margin-bottom: 1rem;
@@ -259,6 +267,9 @@ h5 {
     main {
         padding: 1rem ;
     }
+   .nav-tog{
+    display: flex;
+   }
     .flex-container {
         padding: 0;
         display: flex;
